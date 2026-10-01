@@ -1,0 +1,37 @@
+.contact{
+  padding: 50px;
+}
+.contact h2{
+  padding-top: 20px;
+}
+.contact a{
+  color: #8508BF;
+}
+form{
+  max-width: 500px;
+}
+label{
+  display: block;
+  padding-top: 10px;
+}
+input, textarea{
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #CCCCCC;
+}
+button{
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #8508BF;
+  color: #FFFFFF;
+  border: none;
+}
+.links{
+  padding-left: 40px;
+}
+
+@media (max-width: 768px) {
+  .contact{
+    padding: 20px;
+  }
+}

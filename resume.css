@@ -1,0 +1,21 @@
+.resume{
+  padding: 50px;
+}
+.resume h2{
+  padding-top: 20px;
+}
+.resume a{
+  color: #8508BF;
+}
+.resumeitem{
+  padding-left: 20px;
+}
+.skills{
+  padding-left: 40px;
+}
+
+@media (max-width: 768px) {
+  .resume{
+    padding: 20px;
+  }
+}

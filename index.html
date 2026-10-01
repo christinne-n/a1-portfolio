@@ -2,23 +2,70 @@
 <html lang="en">
 
 <!--
-WRITTEN BY: Your name here
-EMAIL: Your email here
+WRITTEN BY: Christine Nguyen
+EMAIL: chrisln4@uci.edu
 -->
 
 <head>
   <meta charset="utf-8">
-  <meta name="author" content="Your name here">
-  <meta name="description" content="description of your page">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Christine Nguyen">
+  <meta name="description" content="this is the home page for the portfolio">
    <!-- you would link to an external stylesheet here! -->
    <!-- you would also link to Bootstrap here! -->
-  <title>title here</title>
+  <title>Christine Nguyen</title>
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <p>
-    <a href="http://validator.w3.org/check?uri=referer">
-       W3C validator
-    </a>
-  </p>
+  <div>
+    <ul class="navigation">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="contact.html">Contact Me</a></li>
+    </ul>
+  </div>
+
+  <div class="intro">
+    <img src = "uci.jpg" height="250" alt="UCI campus">
+    <h1>Hi, I'm Christine!</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua.</p>
+  </div>
+
+  <div class="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>Project One - Amazon Website</h3>
+      <img src = "amazon.jpg" height="250" alt="Screenshot of the Amazon website">
+        <p>Curabitur varius vel quam at viverra. Morbi at sapien lorem. Vestibulum eu 
+          commodo tellus. Nunc eu neque vel massa pharetra aliquet aliquam a metus. Aliquam 
+          quam sapien, mattis vitae massa sed, dapibus mattis mauris. Nullam euismod vestibulum 
+          volutpat. Nullam nibh nibh, porttitor quis quam id, auctor imperdiet quam.</p>
+      <!-- This is a fake project -->
+      <a href="https://www.amazon.com">View Amazon Website</a>
+    </div>
+
+    <div class="project">
+      <h3>Project Two - Target Website</h3>
+      <img src = "target.jpg" height="250" alt="Screenshot of the Target website">
+      <p>Curabitur varius vel quam at viverra. Morbi at sapien lorem. Vestibulum eu 
+          commodo tellus. Nunc eu neque vel massa pharetra aliquet aliquam a metus. Aliquam 
+          quam sapien, mattis vitae massa sed, dapibus mattis mauris. Nullam euismod vestibulum 
+          volutpat. Nullam nibh nibh, porttitor quis quam id, auctor imperdiet quam.</p>
+      <!-- This is a fake project -->
+      <a href="https://www.target.com/">View Target Website</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>Lorem ipsum footer text</p>
+    <p>
+      <a href="http://validator.w3.org/check?uri=referer">
+         W3C validator
+      </a>
+    </p>
+  </footer>
 </body>
 </html>

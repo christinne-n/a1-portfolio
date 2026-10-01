@@ -1,0 +1,9 @@
+.about{
+  padding: 50px;
+}
+
+@media (max-width: 768px) {
+  .about{
+    padding: 20px;
+  }
+}
