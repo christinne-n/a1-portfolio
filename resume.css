@@ -5,17 +5,41 @@
   padding-top: 20px;
 }
 .resume a{
-  color: #8508BF;
-}
-.resumeitem{
-  padding-left: 20px;
+  color: #5B4BB7;
 }
 .skills{
-  padding-left: 40px;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+.skills caption{
+  padding-bottom: 10px;
+}
+.skills th, .skills td{
+  border: 1px solid #E5E7EB;
+  padding: 10px 20px;
+  text-align: left;
+}
+.skills th{
+  background-color: #F4F2FB;
+  color: #1F2937;
+}
+/* top row of the table is dark gray */
+.skills tr:first-child th{
+  background-color: #1F2937;
+  color: #FFFFFF;
+}
+/* light gray stripe on every other row so it is easier to read */
+.skills tr:nth-child(odd) td{
+  background-color: #F7F7F7;
 }
 
 @media (max-width: 768px) {
   .resume{
     padding: 20px;
+  }
+  /* smaller table so it fits on phones */
+  .skills th, .skills td{
+    padding: 6px 8px;
+    font-size: 14px;
   }
 }

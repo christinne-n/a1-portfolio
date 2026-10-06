@@ -12,6 +12,10 @@ EMAIL: chrisln4@uci.edu
   <meta name="author" content="Christine Nguyen">
   <meta name="description" content="this is the resume page for the portfolio">
   <title>Resume</title>
+  <!-- imported google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="resume.css">
 </head>
@@ -33,32 +37,91 @@ EMAIL: chrisln4@uci.edu
     <h2>Education</h2>
     <div class="resumeitem">
       <h3>University of California, Irvine</h3>
-      <p>Lorem ipsum dolor sit amet - 20XX to 20XX</p>
+      <p><em>B.S. in Lorem Ipsum - 20XX to 20XX</em></p>
+      <p>Relevant coursework: Lorem ipsum dolor, sit amet consectetur, adipiscing elit,
+        sed do eiusmod, tempor incididunt, ut labore et dolore. Nam quam nunc, blandit vel,
+        luctus pulvinar, hendrerit id, lorem.</p>
     </div>
 
     <h2>Experience</h2>
     <div class="resumeitem">
       <h3>Job Title - Company Name</h3>
+      <p><em>Month 20XX - Present</em></p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-        incididunt ut labore et dolore magna aliqua.</p>
+        incididunt ut labore et dolore magna aliqua. Maecenas nec odio et ante tincidunt
+        tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam
+        sit amet orci eget eros faucibus tincidunt. Duis leo.</p>
+      <p>Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.</p>
     </div>
     <div class="resumeitem">
       <h3>Job Title - Company Name</h3>
+      <p><em>Month 20XX - Month 20XX</em></p>
       <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-        fugiat nulla pariatur.</p>
+        fugiat nulla pariatur. Sed consequat, leo eget bibendum sodales, augue velit cursus
+        nunc, quis gravida magna mi a libero.</p>
     </div>
 
     <h2>Skills</h2>
-    <ul class="skills">
-      <li>Lorem</li>
-      <li>Ipsum</li>
-      <li>Dolor</li>
-      <li>Sit Amet</li>
-    </ul>
+    <!-- skills table, the caption and th scope help screen readers read it -->
+    <table class="skills">
+      <caption>My technical skills</caption>
+      <tr>
+        <th scope="col">Category</th>
+        <th scope="col">Skills</th>
+        <th scope="col">Level</th>
+        <th scope="col">Where I Used It</th>
+      </tr>
+      <tr>
+        <th scope="row">Languages</th>
+        <td>Lorem, Ipsum, Dolor</td>
+        <td>Intermediate</td>
+        <td>Lorem ipsum coursework</td>
+      </tr>
+      <tr>
+        <th scope="row">Web</th>
+        <td>HTML, CSS, Lorem</td>
+        <td>Intermediate</td>
+        <td>This portfolio, class projects</td>
+      </tr>
+      <tr>
+        <th scope="row">Frameworks</th>
+        <td>Lorem, Ipsum</td>
+        <td>Beginner</td>
+        <td>Personal projects</td>
+      </tr>
+      <tr>
+        <th scope="row">Databases</th>
+        <td>Lorem, Sit Amet</td>
+        <td>Beginner</td>
+        <td>Dolor sit amet course</td>
+      </tr>
+      <tr>
+        <th scope="row">Tools</th>
+        <td>Git, GitHub, Figma</td>
+        <td>Intermediate</td>
+        <td>Team projects, design work</td>
+      </tr>
+      <tr>
+        <th scope="row">Soft Skills</th>
+        <td>Teamwork, Communication</td>
+        <td>Advanced</td>
+        <td>Lorem ipsum job, group projects</td>
+      </tr>
+    </table>
   </div>
 
   <footer>
-    <p>Lorem ipsum footer text</p>
+    <ul class="footerlinks">
+      <li><a href="https://github.com/">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
+      <li><a href="mailto:chrisln4@uci.edu">Email</a></li>
+    </ul>
+    <p class="copyright">Created by Christine Nguyen</p>
+    <p class="copyright">
+      <a href="http://validator.w3.org/check?uri=referer">
+         W3C validator
+      </a>
+    </p>
   </footer>
 </body>
 </html>

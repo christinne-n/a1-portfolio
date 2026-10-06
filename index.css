@@ -2,52 +2,135 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   flex-wrap: wrap;
 }
+/* color theme:
+   dark gray  #1F2937 (headings, footer)
+   text gray  #374151
+   purple     #5B4BB7 (buttons and links only)
+   light bg   #F4F2FB
+   border     #E5E7EB */
+body{
+  line-height: 1.6;
+  color: #374151;
+  background-color: #FFFFFF;
+}
+/* keeps images from going off the screen on phones */
+img{
+  max-width: 100%;
+  height: auto;
+}
 .navigation{
-  background-color: #8508BF;
+  background-color: #FFFFFF;
   display: flex;
   align-items: center;
   padding: 30px;
   gap: 50px;
   justify-content: center;
   list-style: none;
+  border-bottom: 1px solid #E5E7EB;
 }
 .navigation a{
   text-decoration: none;
-  color: #FFFFFF;
+  color: #1F2937;
+  font-weight: 500;
+}
+.navigation a:hover{
+  color: #5B4BB7;
 }
 h1, h2, h3{
-  color: #8508BF;
+  font-family: "Montserrat", Arial, sans-serif;
+  color: #1F2937;
   padding-bottom: 10px;
 }
 p{
   padding-bottom: 10px;
 }
+/* centers the main content on every page */
+.intro, .about, .resume, .contact{
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
 .intro{
   padding: 50px;
-  text-align: center;
+}
+.intro p{
+  max-width: 650px;
+  margin: 0 auto;
+}
+.button{
+  display: inline-block;
+  background-color: #5B4BB7;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 10px 25px;
+  margin: 10px 5px;
+  border-radius: 20px;
+}
+.button:hover{
+  background-color: #483A99;
 }
 .projects{
   padding: 30px 50px;
+  background-color: #F4F2FB;
+  text-align: center;
+}
+.projectlist{
+  display: flex;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 .project{
+  flex: 1 1 300px;
   padding: 20px;
   margin-bottom: 20px;
-  border: 1px solid #CCCCCC;
+  border: 1px solid #E5E7EB;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+/* makes both project pictures the same size, cropping the extra */
+.project img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
 .project a{
-  color: #8508BF;
+  color: #5B4BB7;
 }
 footer{
-  background-color: #8508BF;
+  background-color: #1F2937;
   color: #FFFFFF;
-  padding: 20px;
+  padding: 30px 20px 20px;
   text-align: center;
 }
 footer a{
   color: #FFFFFF;
+  text-decoration: none;
+}
+footer a:hover{
+  text-decoration: underline;
+}
+/* puts the footer links in a row */
+.footerlinks{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  list-style: none;
+  font-weight: 600;
+  max-width: 400px;
+  padding-bottom: 15px;
+  margin: 0 auto 15px;
+  border-bottom: 1px solid #4B5563;
+}
+.copyright{
+  font-size: 14px;
+  padding-bottom: 5px;
 }
 
 @media (max-width: 768px) {
@@ -57,5 +140,8 @@ footer a{
   }
   .intro, .projects{
     padding: 20px;
+  }
+  .footerlinks{
+    gap: 20px;
   }
 }

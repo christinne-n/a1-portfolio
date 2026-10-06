@@ -5,10 +5,12 @@
   padding-top: 20px;
 }
 .contact a{
-  color: #8508BF;
+  color: #5B4BB7;
 }
 form{
   max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
 }
 label{
   display: block;
@@ -22,12 +24,17 @@ input, textarea{
 button{
   margin-top: 15px;
   padding: 10px 20px;
-  background-color: #8508BF;
+  background-color: #5B4BB7;
   color: #FFFFFF;
   border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #483A99;
 }
 .links{
-  padding-left: 40px;
+  list-style: none;
 }
 
 @media (max-width: 768px) {
