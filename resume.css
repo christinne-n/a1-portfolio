@@ -24,13 +24,9 @@
   color: #1F2937;
 }
 /* top row of the table is dark gray */
-.skills tr:first-child th{
+.tablehead th{
   background-color: #1F2937;
   color: #FFFFFF;
-}
-/* light gray stripe on every other row so it is easier to read */
-.skills tr:nth-child(odd) td{
-  background-color: #F7F7F7;
 }
 
 @media (max-width: 768px) {

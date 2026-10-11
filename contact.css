@@ -1,12 +1,6 @@
 .contact{
   padding: 50px;
 }
-.contact h2{
-  padding-top: 20px;
-}
-.contact a{
-  color: #5B4BB7;
-}
 form{
   max-width: 500px;
   margin: 0 auto;
@@ -21,7 +15,7 @@ input, textarea{
   padding: 8px;
   border: 1px solid #CCCCCC;
 }
-button{
+form button{
   margin-top: 15px;
   padding: 10px 20px;
   background-color: #5B4BB7;
@@ -30,11 +24,8 @@ button{
   border-radius: 20px;
   cursor: pointer;
 }
-button:hover{
+form button:hover{
   background-color: #483A99;
-}
-.links{
-  list-style: none;
 }
 
 @media (max-width: 768px) {

@@ -20,14 +20,14 @@ EMAIL: chrisln4@uci.edu
   <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-  <div>
+  <nav>
     <ul class="navigation">
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
       <li><a href="resume.html">Resume</a></li>
       <li><a href="contact.html">Contact Me</a></li>
     </ul>
-  </div>
+  </nav>
 
   <div class="contact">
     <h1>Contact Me</h1>
@@ -39,17 +39,14 @@ EMAIL: chrisln4@uci.edu
     <p>Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed,
       nonummy id, metus. Nullam accumsan lorem in dui.</p>
 
-    <!-- contact form, defaults to user's email app when pressing send -->
+    <!-- simple contact form -->
     <form action="mailto:chrisln4@uci.edu" method="post" enctype="text/plain">
       <label for="name">Name</label>
       <input type="text" id="name" name="name">
-
       <label for="email">Email</label>
       <input type="email" id="email" name="email">
-
       <label for="message">Message</label>
       <textarea id="message" name="message" rows="5"></textarea>
-
       <button type="submit">Send</button>
     </form>
   </div>
@@ -60,8 +57,8 @@ EMAIL: chrisln4@uci.edu
       <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
       <li><a href="mailto:chrisln4@uci.edu">Email</a></li>
     </ul>
-    <p class="copyright">Created by Christine Nguyen</p>
-    <p class="copyright">
+    <p class="footertext">Created by Christine Nguyen</p>
+    <p class="footertext">
       <a href="http://validator.w3.org/check?uri=referer">
          W3C validator
       </a>

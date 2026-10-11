@@ -11,11 +11,11 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
 */10
-- */1 Readme
-- */2 Basic HTML content
-- */1 Basic CSS styling
-- */1 Advanced feature
-- */2 Responsive layout
+- 1/1 Readme
+- 2/2 Basic HTML content
+- 1/1 Basic CSS styling
+- 1/1 Advanced feature
+- 2/2 Responsive layout
 - */1 Passes validation checks
 - */2 Embraces spirit of the assignment
 
@@ -39,16 +39,19 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 
 4. How long, in hours, did it take you to complete this assignment?
-
+I spent about 4-6 hours in total. I made my own portfolio already so I took pieces of my old portfolio to make this new one. 
+I didn't want to put anything personal in yet, since I need to spend extra time updating my resume and information, 
+so this is a perfect way for me to have a new portfolio for me right now since I haven't updated in over a year.
 
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
-
-
+https://fonts.google.com/
+https://unsplash.com/ 
+http://validator.w3.org/check?uri=referer" 
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
-
+None
 
 
 7. Is there anything special we need to know in order to run your code?
-
+No, you can just click on index.html
