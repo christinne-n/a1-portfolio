@@ -101,6 +101,10 @@ p{
 .project a{
   color: #5B4BB7;
 }
+/* keeps button text white inside the project cards */
+.project .button{
+  color: #FFFFFF;
+}
 footer{
   background-color: #1F2937;
   color: #FFFFFF;
