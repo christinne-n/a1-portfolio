@@ -51,7 +51,13 @@ so this is a perfect way for me to have a new portfolio for me right now since I
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
 https://fonts.google.com/
 https://unsplash.com/ 
+https://www.lipsum.com/feed/html
 http://validator.w3.org/check?uri=referer" 
+https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements
+https://png2jpg.com/
+I prompted Claude to give me a summary of how to implement <form> and <table> since I haven't done it in a while. I also double checked by using the resources links on
+https://inf133-wi26.depstein.net/resources as well. I also listed claude the specific things I did in my assignment and asked if I was missing anything else for basic/CSS/advanced
+features, just to keep track and double check.
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
 None

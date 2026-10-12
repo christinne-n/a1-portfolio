@@ -119,7 +119,7 @@ footer a:hover{
   text-decoration: underline;
 }
 /* puts the footer links in a row */
-.footerlinks{
+.links{
   display: flex;
   justify-content: center;
   gap: 40px;
@@ -142,7 +142,7 @@ footer a:hover{
   .intro, .projects{
     padding: 20px;
   }
-  .footerlinks{
+  .links{
     gap: 20px;
   }
 }
