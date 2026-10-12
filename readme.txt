@@ -16,13 +16,17 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 - 1/1 Basic CSS styling
 - 1/1 Advanced feature
 - 2/2 Responsive layout
-- */1 Passes validation checks
-- */2 Embraces spirit of the assignment
+- 1/1 Passes validation checks
+- 2/2 Embraces spirit of the assignment
 
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
-
+- images with descriptive alt text
+- appropriate headings and paragraph text
+- links to external pages
+- multiple pages with appropriate navigation
+- semantic HTML (footer)
 
 
 (b) CSS features
